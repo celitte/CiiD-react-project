@@ -1,0 +1,26 @@
+.layout {
+    min-width: 1280px;
+    overflow: hidden;
+}
+.layout__header {
+    padding: 5px 15px;
+    background-color: #eee;
+    border-bottom: 2px solid #ccc;
+}
+.layout__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.layout__content {
+    padding: 15px;
+}
+.layout__footer {
+    padding: 5px 15px;
+    background-color: #eee;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+}

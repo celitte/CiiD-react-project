@@ -1,0 +1,22 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+}
+.board__item {
+    margin: 0 10px;
+    display: block;
+    padding: 25px;
+    box-shadow: 4px 4px 0 rgba(#000, .1);
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    min-width: 300px;
+    
+    &:hover {
+        background-color: #eee;
+    }
+}
+.board__title {
+    font-weight: bold;
+    font-size: 20px;
+}
